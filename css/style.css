@@ -1,0 +1,309 @@
+/*General*/
+body{
+    font-family: 'Oswald', sans-serif;
+}
+
+section{
+    padding-top: 70px;
+    min-height: 100vh;
+    padding-bottom: 30px;
+}
+
+.about, .service, .reservation{
+    color: #333745;
+}
+
+
+
+/*Navbar*/
+.navbar{
+    background-color: #333745 !important;
+}
+
+.nav-link{
+    color:rgb(238, 242, 250) !important;
+}
+
+.navbar .btn{
+    background-color: #333745;
+    border: 2px solid rgb(253, 163, 157);
+    color:  rgb(253, 163, 157);
+}
+
+.navbar .btn:hover{
+    background-color: rgb(253, 163, 157);
+    border: 2px solid rgb(253, 163, 157);
+    color: #333745;
+}
+
+.btn:active{
+    background-color: rgb(253, 163, 157);
+}
+
+
+
+
+
+/*Home-page*/
+.home{
+ background-color: #333745;
+ color: rgb(238, 242, 250);
+}
+
+.home .event-border{
+    border: 3px solid rgb(238, 242, 250);
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    color: rgb(238, 242, 250);
+    
+}
+
+.home .btn{
+    background-color: #333745;
+    border: 2px solid rgb(238, 242, 250);
+    color:  rgb(238, 242, 250);
+}
+
+.home .btn:hover{
+    background-color: rgb(238, 242, 250);
+    border: 2px solid rgb(238, 242, 250);
+    color: #333745;
+
+}
+
+
+
+p{
+    font-size: large;
+}
+
+
+
+/*About*/
+.icon{
+    height: 80px;
+    width: 80px;
+    color: #333745;
+    
+}
+
+.iconborder{
+    
+}
+
+
+/*Angebot*/
+.filter > *{
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 5px;
+    border-color: #333745;
+}
+
+.service form button{
+    border-radius: 5px;
+    border-color: #333745;
+}
+
+.service form button:hover{
+    background-color: #333745;
+    border-radius: 5px;
+    border-color: #333745;
+    color: white;
+}
+
+.service-title{
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.service-description{
+    text-align: justify;
+    -moz-hyphens: auto;
+    -o-hyphens: auto;
+    -webkit-hyphens: auto !important;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+
+.service .event-border{
+    border: 4px solid #333745;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    background-color: rgb(238, 242, 250);
+    
+}
+
+.service .btn{
+    background-color: rgb(238, 242, 250);
+    border: 2px solid #333745;
+    color:  #333745;
+}
+
+.service .btn:hover{
+    background-color: #333745;
+    border: 2px solid #333745;
+    color: rgb(238, 242, 250);
+}
+
+
+
+/*Reservation*/
+.reservation .service-description{
+    text-align: center;
+    -moz-hyphens: auto;
+    -o-hyphens: auto;
+    -webkit-hyphens: auto;
+    -ms-hyphens: auto;
+    hyphens: auto;
+}
+.reservation .event-border{
+    border: 3px solid #333745;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.reservation .btn{
+    background-color: white;
+    border: 2px solid #333745;
+    color:  #333745;
+}
+
+.reservation .btn:hover{
+    background-color: #333745;
+    border: 2px solid #333745;
+    color: white;
+}
+
+
+/*Filter*/
+.filtered-service {
+    padding-top: 30px;
+}
+
+.filtered-service .event-border{
+    border: 3px solid #333745;
+    border-radius: 20px;
+    padding: 10px 10px 10px 10px;
+    
+}
+
+.filtered-service .btn{
+    background-color: white;
+    border: 2px solid #333745;
+    color:  #333745;
+}
+
+.filtered-service .btn:hover{
+    background-color: #333745;
+    border: 2px solid #333745;
+    color: white;
+}
+
+
+
+/*Administration*/
+.administration {
+    padding-top: 30px;
+}
+
+.administration .btn{
+    background-color: white;
+    border: 2px solid #333745;
+    color:  #333745;
+}
+
+.administration .btn:hover{
+    background-color: #333745;
+    border: 2px solid #333745;
+    color: white;
+}
+
+
+
+/*Statistik*/
+.statistic-box{
+    margin-left: 80px;
+    margin-top: 80px;
+}
+
+
+.figure-key [class*="shape-"] {
+    margin-right: 6px;
+  
+  }
+  
+  .figure-key-list {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+   
+  .figure-key-list li {
+    margin: 0 0 8px;
+    padding: 0;
+  }
+  
+  .shape-circle {
+    display: inline-block;
+    vertical-align: middle;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+  }
+
+  .shape-general-1{
+    background-color: #fe938c;
+  }
+
+  .shape-general-2{
+        background-color: #ead2ac;
+  }
+
+  .shape-general-3{
+    background-color: #4281a4;
+  }
+  
+  .shape-first {
+    background-color: #513b56;
+    margin-top: 5px;
+  }
+  
+  .shape-second {
+    background-color: #9d8189;
+  }
+  
+  .shape-third {
+    background-color: #fe938c;
+  }
+
+  .shape-4th {
+    background-color: #e6b89c;
+    
+  }
+  
+  .shape-5th {
+    background-color: #ead2ac;
+  }
+  
+  .shape-6th {
+    background-color: #9cafb7;
+  }
+
+  .shape-7th {
+    background-color: #4281a4;
+  
+  }
+  
+  .shape-8th {
+    background-color: #1a535c;
+  }
+  
+ 
+
+
+
+
+
+
